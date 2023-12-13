@@ -18,7 +18,9 @@
 	"objectTypes": {
 		"items": [
 			"Sprite",
-			"Sprite2"
+			"Sprite2",
+			"Sprite3",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
