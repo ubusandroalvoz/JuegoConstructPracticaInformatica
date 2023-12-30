@@ -2,26 +2,6 @@
 	"name": "Hoja de eventos 3",
 	"events": [
 		{
-			"eventType": "variable",
-			"name": "MovimientoX",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 279007618307109
-		},
-		{
-			"eventType": "variable",
-			"name": "MovimientoY",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 990037688410346
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -33,37 +13,19 @@
 			],
 			"actions": [
 				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 318673000647467,
-					"parameters": {
-						"variable": "MovimientoX",
-						"value": "Joaquin.X"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 545901846341639,
-					"parameters": {
-						"variable": "MovimientoY",
-						"value": "Joaquin.Y"
-					}
-				},
-				{
 					"id": "set-x",
 					"objectClass": "Servidor",
-					"sid": 795625353946885,
+					"sid": 862218903496938,
 					"parameters": {
-						"x": "1920-MovimientoX"
+						"x": "1920-Joaquin.X"
 					}
 				},
 				{
 					"id": "set-y",
 					"objectClass": "Servidor",
-					"sid": 584209840737039,
+					"sid": 827966195110960,
 					"parameters": {
-						"y": "1080-MovimientoY"
+						"y": "1080-Joaquin.Y"
 					}
 				}
 			],
