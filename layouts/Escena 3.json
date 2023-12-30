@@ -123,8 +123,8 @@
 						"8Direcciones": {
 							"properties": {
 								"max-speed": -1000,
-								"acceleration": 4000,
-								"deceleration": 4000,
+								"acceleration": -4000,
+								"deceleration": -4000,
 								"directions": "left-right",
 								"set-angle": "no",
 								"allow-sliding": false,
