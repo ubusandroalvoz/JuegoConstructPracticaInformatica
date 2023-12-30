@@ -52,14 +52,16 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},
@@ -187,7 +189,7 @@
 			1,
 			0
 		],
-		"useThemeColor": false,
+		"useThemeColor": true,
 		"themeColor": [
 			1,
 			1,
@@ -217,5 +219,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "Escena 1"
 }

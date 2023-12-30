@@ -24,7 +24,7 @@
 								"acceleration": 4000,
 								"deceleration": 4000,
 								"directions": "dir-8",
-								"set-angle": "smooth",
+								"set-angle": "no",
 								"allow-sliding": false,
 								"default-controls": true,
 								"enabled": true
