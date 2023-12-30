@@ -19,6 +19,13 @@
 			"name": "Texto",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direcciones",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "5jw603iv87u",

@@ -1,5 +1,47 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "OpacidadTexto1",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 907592070640673
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Servidor",
+					"sid": 446290039031187,
+					"behaviorType": "8Direcciones"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto1",
+					"sid": 937856674167434,
+					"parameters": {
+						"opacity": "OpacidadTexto1"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 240955170828681,
+					"parameters": {
+						"variable": "OpacidadTexto1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 943469100799711
+		}
+	],
 	"sid": 732250286857852
 }

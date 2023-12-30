@@ -148,12 +148,25 @@
 					},
 					"uid": 6,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"8Direcciones": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 4000,
+								"deceleration": 4000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 1304,
-						"y": 751,
-						"width": 494,
-						"height": 480,
+						"x": 305,
+						"y": 757,
+						"width": 364,
+						"height": 343,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -169,7 +182,7 @@
 				{
 					"type": "Texto1",
 					"properties": {
-						"text": "Usa las flechas de movimiento o las teclas WASD para desplazarte.",
+						"text": "Utiliza las flechas de movimiento para desplazarte.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 30,
@@ -194,9 +207,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 526,
-						"y": 155,
-						"width": 464,
+						"x": 517,
+						"y": 233,
+						"width": 908,
 						"height": 175,
 						"originX": 0,
 						"originY": 0,
