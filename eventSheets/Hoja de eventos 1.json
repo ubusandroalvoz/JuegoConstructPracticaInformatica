@@ -41,6 +41,30 @@
 				}
 			],
 			"sid": 943469100799711
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Servidor",
+					"sid": 219280228579483,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 918599527428429,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 224347959135224
 		}
 	],
 	"sid": 732250286857852

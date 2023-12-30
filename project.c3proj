@@ -37,7 +37,8 @@
 			"Cliente",
 			"Servidor",
 			"Texto1",
-			"HojadeInformacion"
+			"HojadeInformacion",
+			"Texto2"
 		],
 		"subfolders": []
 	},
