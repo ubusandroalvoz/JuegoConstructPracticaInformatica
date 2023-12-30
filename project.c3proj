@@ -38,7 +38,9 @@
 			"Servidor",
 			"Texto1",
 			"HojadeInformacion",
-			"Texto2"
+			"Texto2",
+			"Sprite2",
+			"Texto4"
 		],
 		"subfolders": []
 	},
@@ -50,13 +52,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},

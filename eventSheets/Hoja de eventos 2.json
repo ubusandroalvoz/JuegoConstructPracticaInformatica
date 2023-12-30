@@ -1,0 +1,85 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 418694008304784
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto4",
+					"sid": 175625345515172,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 542741573444046
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 230825222550503,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto4",
+					"sid": 912827155245523,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion",
+					"sid": 204130547401587,
+					"parameters": {
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 685570609044418
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Joaquin",
+					"sid": 393094977532800,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "1920"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 605945978287524,
+					"parameters": {
+						"layout": "Escena 3"
+					}
+				}
+			],
+			"sid": 563856316913829
+		}
+	],
+	"sid": 343118320875496
+}

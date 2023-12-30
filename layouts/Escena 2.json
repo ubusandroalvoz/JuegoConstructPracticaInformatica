@@ -1,53 +1,11 @@
 {
-	"name": "Escena 1",
+	"name": "Escena 2",
 	"layers": [
 		{
 			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
-				{
-					"type": "Joaquin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {
-						"8Direcciones": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 500,
-								"directions": "dir-8",
-								"set-angle": "smooth",
-								"allow-sliding": false,
-								"default-controls": true,
-								"enabled": false
-							}
-						}
-					},
-					"world": {
-						"x": 274,
-						"y": 1552,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
 				{
 					"type": "Sprite",
 					"properties": {
@@ -57,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 12,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -101,7 +59,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 4,
+					"uid": 13,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -130,12 +88,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 14,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 478,
-						"y": 1445,
+						"x": 393,
+						"y": 788,
 						"width": 337,
 						"height": 263,
 						"originX": 0.5,
@@ -159,7 +117,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 15,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direcciones": {
@@ -171,13 +129,13 @@
 								"set-angle": "no",
 								"allow-sliding": false,
 								"default-controls": true,
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},
 					"world": {
-						"x": 305,
-						"y": 757,
+						"x": 638,
+						"y": 1745,
 						"width": 364,
 						"height": 343,
 						"originX": 0.5,
@@ -216,12 +174,12 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 7,
+					"uid": 16,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 517,
-						"y": 233,
+						"x": 283,
+						"y": 1380,
 						"width": 908,
 						"height": 175,
 						"originX": 0,
@@ -245,7 +203,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 8,
+					"uid": 17,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -268,7 +226,7 @@
 				{
 					"type": "Texto2",
 					"properties": {
-						"text": "Un SERVIDOR es un dispositivo informático que ofrece servicios a uno o varios usuarios en una red. Puede ser de varios tipos según su funcionalidad: FTP, de correo, web, bases de datos...",
+						"text": "Un CLIENTE es el usuario que hace uso de estos servicios.",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 30,
@@ -289,12 +247,12 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 9,
+					"uid": 18,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 507,
-						"y": 133,
+						"x": 1342,
+						"y": 1547,
 						"width": 951,
 						"height": 282,
 						"originX": 0,
@@ -318,7 +276,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 10,
+					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -337,9 +295,95 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Texto4",
+					"properties": {
+						"text": "Un CLIENTE es el usuario que hace uso de estos servicios.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": false,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 507,
+						"y": 133,
+						"width": 951,
+						"height": 282,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Joaquin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {
+						"8Direcciones": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 4000,
+								"deceleration": 4000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 252,
+						"y": 824,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 3
+					}
 				}
 			],
-			"sid": 941287060169540,
+			"sid": 385499355769127,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -368,7 +412,7 @@
 			"global": false
 		}
 	],
-	"sid": 438887409969694,
+	"sid": 471104271856616,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
