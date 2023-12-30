@@ -19,8 +19,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 691,
-						"y": 1270,
+						"x": 212,
+						"y": 1266,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -48,10 +48,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 989,
-						"y": 1281,
-						"width": 262,
-						"height": 206,
+						"x": 467,
+						"y": 1296,
+						"width": 273,
+						"height": 326,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -67,7 +67,7 @@
 				{
 					"type": "Texto",
 					"properties": {
-						"text": "Un SERVIDOR es un dispositivo informático que ofrece servicios a uno o varios usuarios en una red. Pueden ser de varios tipos según su funcionalidad: FTP, de correo, web, bases de datos...\nUn CLIENTE es el usuario que hace uso de estos servicios.\nGran parte de las redes del mundo se basan en esta estructura: plataformas de streaming, páginas web, juegos en línea...\nEl CLIENTE y el SERVIDOR no existen el uno sin el otro",
+						"text": "Un SERVIDOR es un dispositivo informático que ofrece servicios a uno o varios usuarios en una red. Puede ser de varios tipos según su funcionalidad: FTP, de correo, web, bases de datos...\nUn CLIENTE es el usuario que hace uso de estos servicios.\nGran parte de las redes del mundo se basan en esta estructura: plataformas de streaming, páginas web, juegos en línea...\nEl CLIENTE y el SERVIDOR dependen el uno del otro y mantienen una relación simbiótica.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 32,
@@ -92,12 +92,41 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 134,
-						"y": 53,
+						"x": 144,
+						"y": 29,
 						"width": 1621,
-						"height": 648,
+						"height": 497,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Cliente",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 482,
+						"y": 692,
+						"width": 525,
+						"height": 488,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
