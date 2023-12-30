@@ -92,8 +92,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 393,
-						"y": 788,
+						"x": 372,
+						"y": 752,
 						"width": 337,
 						"height": 263,
 						"originX": 0.5,
@@ -122,20 +122,20 @@
 					"behaviors": {
 						"8Direcciones": {
 							"properties": {
-								"max-speed": 1000,
+								"max-speed": -1000,
 								"acceleration": 4000,
 								"deceleration": 4000,
-								"directions": "dir-8",
+								"directions": "left-right",
 								"set-angle": "no",
 								"allow-sliding": false,
 								"default-controls": true,
-								"enabled": false
+								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 638,
-						"y": 1745,
+						"x": 1634,
+						"y": 793,
 						"width": 364,
 						"height": 343,
 						"originX": 0.5,
@@ -207,8 +207,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1018,
-						"y": 657,
+						"x": 1357,
+						"y": 1538,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -251,8 +251,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 526,
-						"y": 207,
+						"x": 355,
+						"y": 1265,
 						"width": 951,
 						"height": 282,
 						"originX": 0,
@@ -280,8 +280,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1756,
-						"y": 488,
+						"x": 860,
+						"y": 1565,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -323,7 +323,7 @@
 					},
 					"world": {
 						"x": 252,
-						"y": 824,
+						"y": 793,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
