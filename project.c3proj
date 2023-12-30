@@ -28,7 +28,8 @@
 			"Sprite",
 			"Texto",
 			"Cliente",
-			"Servidor"
+			"Servidor",
+			"Texto1"
 		],
 		"subfolders": []
 	},
