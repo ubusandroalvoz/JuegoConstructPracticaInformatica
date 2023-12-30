@@ -12,6 +12,16 @@
 			"sid": 907592070640673
 		},
 		{
+			"eventType": "variable",
+			"name": "FrameHojadeInformacion",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 427489645325298
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -58,9 +68,18 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Texto2",
-					"sid": 918599527428429,
+					"sid": 300717800316838,
 					"parameters": {
-						"visibility": "visible"
+						"visibility": "toggle"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 838768822140760,
+					"parameters": {
+						"variable": "FrameHojadeInformacion",
+						"value": "1"
 					}
 				}
 			],
