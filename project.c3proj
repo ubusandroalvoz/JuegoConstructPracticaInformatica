@@ -27,7 +27,8 @@
 			"Joaquin",
 			"Sprite",
 			"Texto",
-			"Cliente"
+			"Cliente",
+			"Servidor"
 		],
 		"subfolders": []
 	},
