@@ -184,7 +184,7 @@
 					"properties": {
 						"text": "Utiliza las flechas de movimiento para desplazarte.",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "fantasy",
 						"size": 30,
 						"line-height": 0,
 						"bold": false,

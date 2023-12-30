@@ -12,16 +12,6 @@
 			"sid": 907592070640673
 		},
 		{
-			"eventType": "variable",
-			"name": "FrameHojadeInformacion",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 427489645325298
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -56,9 +46,30 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 348782195563736
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 435190205950829,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 544208031042994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
 					"objectClass": "Servidor",
-					"sid": 219280228579483,
+					"sid": 711550238431727,
 					"parameters": {
 						"object": "HojadeInformacion"
 					}
@@ -68,18 +79,18 @@
 				{
 					"id": "set-visible",
 					"objectClass": "Texto2",
-					"sid": 300717800316838,
+					"sid": 633780229243543,
 					"parameters": {
-						"visibility": "toggle"
+						"visibility": "visible"
 					}
 				},
 				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 838768822140760,
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion",
+					"sid": 435801539625519,
 					"parameters": {
-						"variable": "FrameHojadeInformacion",
-						"value": "1"
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
 					}
 				}
 			],
