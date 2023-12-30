@@ -95,6 +95,31 @@
 				}
 			],
 			"sid": 224347959135224
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Servidor",
+					"sid": 242563712723894,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "1920"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 288766617529961,
+					"parameters": {
+						"layout": "Escena 2"
+					}
+				}
+			],
+			"sid": 874304818682526
 		}
 	],
 	"sid": 732250286857852
