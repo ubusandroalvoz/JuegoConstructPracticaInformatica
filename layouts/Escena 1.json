@@ -29,6 +29,11 @@
 								"default-controls": true,
 								"enabled": false
 							}
+						},
+						"DesplazarHasta": {
+							"properties": {
+								"enabled": false
+							}
 						}
 					},
 					"world": {

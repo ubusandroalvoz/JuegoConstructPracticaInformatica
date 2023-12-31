@@ -8,13 +8,6 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "HTMLElement",
-			"name": "Elemento HTML",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -40,6 +33,13 @@
 			"name": "8 Direcciones",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Desplazar hasta",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "5jw603iv87u",
@@ -58,8 +58,7 @@
 			"Texto3",
 			"HojadeInformacion2",
 			"Sprite3",
-			"Mouse",
-			"ElementoHTML"
+			"Mouse"
 		],
 		"subfolders": []
 	},

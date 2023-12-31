@@ -9,6 +9,11 @@
 			"behaviorId": "EightDir",
 			"name": "8Direcciones",
 			"sid": 630731396856415
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "DesplazarHasta",
+			"sid": 611913310281980
 		}
 	],
 	"effectTypes": [],

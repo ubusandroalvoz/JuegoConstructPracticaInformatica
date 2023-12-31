@@ -56,7 +56,12 @@
 								"set-angle": "no",
 								"allow-sliding": false,
 								"default-controls": true,
-								"enabled": true
+								"enabled": false
+							}
+						},
+						"DesplazarHasta": {
+							"properties": {
+								"enabled": false
 							}
 						}
 					},

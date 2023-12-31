@@ -36,51 +36,50 @@
 					}
 				},
 				{
-					"type": "ElementoHTML",
+					"type": "Joaquin",
 					"properties": {
-						"tag": "div",
-						"content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Star Wars Intro</title>\n  <style>\n    body {\n      overflow: hidden;\n      margin: 0;\n      font-family: 'Arial', sans-serif;\n      color: #fff;\n    }\n\n    .intro {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      text-align: center;\n      display: none;\n    }\n\n    .intro p {\n      font-size: 2em;\n      margin: 0;\n      padding: 10px;\n      background: rgba(0, 0, 0, 0.5);\n      border: 2px solid #fff;\n      border-radius: 5px;\n    }\n\n    .crawl {\n      animation: crawl 60s linear forwards;\n    }\n\n    @keyframes crawl {\n      0% {\n        transform: translateY(100%);\n      }\n      100% {\n        transform: translateY(-500%);\n      }\n    }\n  </style>\n</head>\n<body>\n\n<div class=\"intro\">\n  <p class=\"crawl\">\n    El protocolo TCP, junto a UDP, sostiene la totalidad de la transmisión de información en Internet.\n    Al contrario que UDP, TCP se enfoca en mantener la integridad de la información, sacrificando velocidad, sin asegurar que ésta llega al destino.\n    Para intercambiar información y comunicarse con el servidor de Github, se ha creado una conexión TCP entre éste y el dispositivo de Joaquín.\n  </p>\n</div>\n\n<script>\n  // Show the intro and start the animation after a delay\n  document.addEventListener('DOMContentLoaded', function() {\n    const intro = document.querySelector('.intro');\n    setTimeout(() => {\n      intro.style.display = 'block';\n      intro.classList.add('crawl');\n    }, 1000);\n  });\n</script>\n\n</body>\n</html>\n",
-						"content-type": "html",
 						"initially-visible": true,
-						"id": "",
-						"class": "",
-						"allow-context-menu": false,
-						"stop-input-events": "no",
-						"origin": "top-left",
-						"set-color": true,
-						"default-color": [
-							0,
-							0,
-							0,
-							0
-						],
-						"set-background-color": false,
-						"default-background-color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"auto-font-size": true,
-						"allow-text-selection": false,
-						"style-attribute": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 27,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"8Direcciones": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 4000,
+								"deceleration": 4000,
+								"directions": "dir-8",
+								"set-angle": "no",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"DesplazarHasta": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 0,
-						"y": -2,
-						"width": 1926,
-						"height": 1080,
-						"originX": 0,
-						"originY": 0,
+						"x": 605,
+						"y": 575,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
