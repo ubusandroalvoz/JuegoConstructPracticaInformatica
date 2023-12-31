@@ -58,7 +58,12 @@
 			"Texto3",
 			"HojadeInformacion2",
 			"Sprite3",
-			"Mouse"
+			"Mouse",
+			"BufferEntrada",
+			"PDU1",
+			"Sprite4",
+			"ConsolaBufferEntrada",
+			"Sprite5"
 		],
 		"subfolders": []
 	},
