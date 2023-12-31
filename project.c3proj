@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "HTMLElement",
+			"name": "Elemento HTML",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -51,7 +58,8 @@
 			"Texto3",
 			"HojadeInformacion2",
 			"Sprite3",
-			"Mouse"
+			"Mouse",
+			"ElementoHTML"
 		],
 		"subfolders": []
 	},
@@ -65,7 +73,8 @@
 		"items": [
 			"Escena 1",
 			"Escena 2",
-			"Escena 3"
+			"Escena 3",
+			"Escena 4"
 		],
 		"subfolders": []
 	},
@@ -73,7 +82,8 @@
 		"items": [
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
-			"Hoja de eventos 3"
+			"Hoja de eventos 3",
+			"Hoja de eventos 4"
 		],
 		"subfolders": []
 	},
