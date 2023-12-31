@@ -272,8 +272,8 @@
 						}
 					},
 					"world": {
-						"x": 3452,
-						"y": 1023,
+						"x": 3579,
+						"y": 1025,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -307,8 +307,8 @@
 						}
 					},
 					"world": {
-						"x": 2785,
-						"y": 995,
+						"x": 3736,
+						"y": 1039,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
@@ -319,7 +319,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.012405844967008584,
 						"zElevation": 6
 					}
 				},
@@ -342,8 +342,43 @@
 						}
 					},
 					"world": {
-						"x": 3058,
-						"y": 881,
+						"x": 3666,
+						"y": 952,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 6
+					}
+				},
+				{
+					"type": "PDU4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 3709,
+						"y": 956,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,

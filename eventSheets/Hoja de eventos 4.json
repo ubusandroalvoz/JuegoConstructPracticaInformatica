@@ -322,6 +322,10 @@
 					"objectClass": "PDU3",
 					"sid": 540783580629422,
 					"behaviorType": "Pegado"
+				},
+				{
+					"type": "script",
+					"script": "var texto1, texto2, texto3, texto4;\nconst PDU1 = runtime.objects.PDU1; // GET /index.html HTTP/1.1\nconst PDU2 = runtime.objects.PDU2; // Host: www.example.com\nconst PDU3 = runtime.objects.PDU3; // Accept: text/html\nconst PDU4 = runtime.objects.PDU4; // Content-Type: JSON\n\nvar coordenadas = [PDU1.x, PDU2.x, PDU3.x, PDU4.x];\ncoordenadas.sort(function(a, b) {\n  return a - b;\n});\n\ntexto1 = diccionarioCoordenadas(coordenadas[0]);\ntexto2 = diccionarioCoordenadas(coordenadas[1]);\ntexto3 = diccionarioCoordenadas(coordenadas[2]);\ntexto4 = diccionarioCoordenadas(coordenadas[3]);\n\nfunction diccionarioCoordenadas(x) {\n  if (x === PDU1.x) {\n    return \"GET /index.html HTTP/1.1\";\n  } else if (x === PDU2.x) {\n    return \"Host: github.com/ubusandroalvoz\";\n  } else if (x === PDU3.x) {\n    return \"Accept: text/html\";\n  } else if (x === PDU4.x) {\n    return \"Content-Type: JSON\";\n  } else {\n    return \"Texto no encontrado\";\n  }\n}\n"
 				}
 			],
 			"sid": 191548163426698
