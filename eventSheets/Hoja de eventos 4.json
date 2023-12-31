@@ -33,43 +33,63 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "texto1",
-			"type": "string",
-			"initialValue": "",
+			"name": "LlevarPDU4",
+			"type": "boolean",
+			"initialValue": "false",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 259220025515319
+			"sid": 736772939104856
 		},
 		{
 			"eventType": "variable",
-			"name": "texto2",
-			"type": "string",
-			"initialValue": "",
+			"name": "AND1",
+			"type": "boolean",
+			"initialValue": "false",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 326324972887028
+			"sid": 107978812768336
 		},
 		{
 			"eventType": "variable",
-			"name": "texto3",
-			"type": "string",
-			"initialValue": "",
+			"name": "AND2",
+			"type": "boolean",
+			"initialValue": "false",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 288072398646559
+			"sid": 290876774125926
 		},
 		{
 			"eventType": "variable",
-			"name": "texto4",
-			"type": "string",
-			"initialValue": "",
+			"name": "AND3",
+			"type": "boolean",
+			"initialValue": "false",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 333640113616424
+			"sid": 714054276484267
+		},
+		{
+			"eventType": "variable",
+			"name": "AND4",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 830076933128982
+		},
+		{
+			"eventType": "variable",
+			"name": "PartidaTerminada",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 237119635811818
 		},
 		{
 			"eventType": "block",
@@ -156,6 +176,33 @@
 					}
 				},
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 127662982214898,
+					"parameters": {
+						"variable": "LlevarPDU4",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 620949226360314,
+					"parameters": {
+						"variable": "LlevarPDU2",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 510425611710804,
+					"parameters": {
+						"variable": "LlevarPDU3",
+						"value": "false"
+					}
+				},
+				{
 					"id": "unpin",
 					"objectClass": "PDU2",
 					"sid": 866514555752009,
@@ -181,6 +228,12 @@
 						"height-type": "no",
 						"z": false
 					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU4",
+					"sid": 462606842441846,
+					"behaviorType": "Pegado"
 				}
 			],
 			"sid": 126496747055436
@@ -216,6 +269,33 @@
 					}
 				},
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 133007229703058,
+					"parameters": {
+						"variable": "LlevarPDU1",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 515726280738648,
+					"parameters": {
+						"variable": "LlevarPDU4",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 551825855409935,
+					"parameters": {
+						"variable": "LlevarPDU3",
+						"value": "false"
+					}
+				},
+				{
 					"id": "pin-to-object-properties",
 					"objectClass": "PDU2",
 					"sid": 740965576013799,
@@ -241,6 +321,12 @@
 					"objectClass": "PDU3",
 					"sid": 121636346165198,
 					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU4",
+					"sid": 409660268130814,
+					"behaviorType": "Pegado"
 				}
 			],
 			"sid": 565545007427762
@@ -251,7 +337,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 940883015737806,
+					"sid": 566448208983368,
 					"parameters": {
 						"key": 88
 					}
@@ -259,7 +345,7 @@
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "Joaquin",
-					"sid": 129041121068357,
+					"sid": 486467894310764,
 					"parameters": {
 						"object": "PDU3"
 					}
@@ -269,16 +355,43 @@
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 551482757736321,
+					"sid": 809061548707954,
 					"parameters": {
 						"variable": "LlevarPDU3",
 						"value": "true"
 					}
 				},
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 367474672773625,
+					"parameters": {
+						"variable": "LlevarPDU1",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 282820191860625,
+					"parameters": {
+						"variable": "LlevarPDU2",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 596718806452580,
+					"parameters": {
+						"variable": "LlevarPDU4",
+						"value": "false"
+					}
+				},
+				{
 					"id": "pin-to-object-properties",
 					"objectClass": "PDU3",
-					"sid": 818175347412617,
+					"sid": 578180989763419,
 					"behaviorType": "Pegado",
 					"parameters": {
 						"pin-to": "Joaquin",
@@ -293,17 +406,116 @@
 				{
 					"id": "unpin",
 					"objectClass": "PDU1",
-					"sid": 610775541001432,
+					"sid": 649126938673494,
 					"behaviorType": "Pegado"
 				},
 				{
 					"id": "unpin",
 					"objectClass": "PDU2",
-					"sid": 390860615361892,
+					"sid": 819891589702387,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU4",
+					"sid": 266827864915457,
 					"behaviorType": "Pegado"
 				}
 			],
-			"sid": 474990436254808
+			"sid": 234791558409239
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 314802894321773,
+					"parameters": {
+						"key": 88
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 550658214596119,
+					"parameters": {
+						"object": "PDU4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 746449288334823,
+					"parameters": {
+						"variable": "LlevarPDU4",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 581335807209835,
+					"parameters": {
+						"variable": "LlevarPDU1",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 833396981418787,
+					"parameters": {
+						"variable": "LlevarPDU2",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 336017841616196,
+					"parameters": {
+						"variable": "LlevarPDU3",
+						"value": "false"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "PDU4",
+					"sid": 692934511757604,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Joaquin",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU1",
+					"sid": 566866559069973,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU3",
+					"sid": 169922472558347,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU2",
+					"sid": 887618853032081,
+					"behaviorType": "Pegado"
+				}
+			],
+			"sid": 848736573848839
 		},
 		{
 			"eventType": "block",
@@ -346,6 +558,15 @@
 					}
 				},
 				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 369560004187397,
+					"parameters": {
+						"variable": "LlevarPDU4",
+						"value": "false"
+					}
+				},
+				{
 					"id": "unpin",
 					"objectClass": "PDU1",
 					"sid": 394801763495061,
@@ -364,19 +585,374 @@
 					"behaviorType": "Pegado"
 				},
 				{
-					"type": "script",
-					"script": "var texto1, texto2, texto3, texto4;\nconst PDU1 = runtime.objects.PDU1; // GET /index.html HTTP/1.1\nconst PDU2 = runtime.objects.PDU2; // Host: www.example.com\nconst PDU3 = runtime.objects.PDU3; // Accept: text/html\nconst PDU4 = runtime.objects.PDU4; // Content-Type: JSON\n\nvar coordenadas = [{ x: PDU1.x, y: PDU1.y },{ x: PDU2.x, y: PDU2.y },{ x: PDU3.x, y: PDU3.y },{ x: PDU4.x, y: PDU4.y }];\ncoordenadas = coordenadas.filter(coordenada =>\n  coordenada.x >= 2760 && coordenada.x <= 3750 && coordenada.y >= 840 && coordenada.y <= 1040\n);\ncoordenadas.sort((a, b) => a.x - b.x);\n\nruntime.globalVars.texto1 = diccionarioCoordenadas(coordenadas[0]);\nruntime.globalVars.texto2 = diccionarioCoordenadas(coordenadas[1]);\nruntime.globalVars.texto3 = diccionarioCoordenadas(coordenadas[2]);\nruntime.globalVars.texto4 = diccionarioCoordenadas(coordenadas[3]);\n\nfunction diccionarioCoordenadas(coordenada) {\n\tif (!coordenada.x) {\n    return \"Coordenada fuera del rango\";\n  }\n  if (coordenada === PDU1.x) {\n    return \"GET /index.html HTTP/1.1\";\n  } else if (coordenada.x === PDU2.x) {\n    return \"Host: github.com/ubusandroalvoz\";\n  } else if (coordenada.x === PDU3.x) {\n    return \"Accept: text/html\";\n  } else if (coordenada.x === PDU4.x) {\n    return \"Content-Type: JSON\";\n  } else {\n    return \"Texto no encontrado\";\n  }\n}\n"
-				},
-				{
-					"id": "set-text",
-					"objectClass": "FuenteSprite",
-					"sid": 778558260453527,
-					"parameters": {
-						"text": "\"la reputisima de tu madre joaquin\""
-					}
+					"id": "unpin",
+					"objectClass": "PDU4",
+					"sid": 101922544462344,
+					"behaviorType": "Pegado"
 				}
 			],
 			"sid": 191548163426698
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "PDU1",
+					"sid": 528651390660131,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "2773"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "PDU1",
+					"sid": 305161847340736,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "2965"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU1",
+					"sid": 115264270378309,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "840"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU1",
+					"sid": 825486938244332,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "1035"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 840563311150582,
+					"parameters": {
+						"variable": "LlevarPDU1"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "FuenteSprite",
+					"sid": 857814367845987,
+					"parameters": {
+						"text": "\"GET /index.html HTTP/1.1\""
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 691756157077958,
+					"parameters": {
+						"variable": "AND1",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 829090003701166
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "PDU2",
+					"sid": 681172725787474,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "2965"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "PDU2",
+					"sid": 943787102177968,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "3208"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU2",
+					"sid": 130652557080637,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "840"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU2",
+					"sid": 214683344563946,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "1035"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 444218707892592,
+					"parameters": {
+						"variable": "LlevarPDU2"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "FuenteSprite2",
+					"sid": 113102667816159,
+					"parameters": {
+						"text": "\"Host: www.example.com\""
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 845331423739315,
+					"parameters": {
+						"variable": "AND2",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 816592841224846
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "PDU3",
+					"sid": 864432246117329,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "3208"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "PDU3",
+					"sid": 738451289288144,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "3435"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU3",
+					"sid": 864923001894287,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "840"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU3",
+					"sid": 135801693738281,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "1035"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 773648749142690,
+					"parameters": {
+						"variable": "LlevarPDU3"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "FuenteSprite3",
+					"sid": 958080194538260,
+					"parameters": {
+						"text": "\"Accept: text/html\""
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 724007021808381,
+					"parameters": {
+						"variable": "AND3",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 138519459760190
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "PDU4",
+					"sid": 494568577484926,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "3435"
+					}
+				},
+				{
+					"id": "compare-x",
+					"objectClass": "PDU4",
+					"sid": 609063028044198,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "3742"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU4",
+					"sid": 871477183147647,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "840"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "PDU4",
+					"sid": 877367756936083,
+					"parameters": {
+						"comparison": 3,
+						"y-co-ordinate": "1035"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 840437873611406,
+					"parameters": {
+						"variable": "LlevarPDU4"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "FuenteSprite4",
+					"sid": 574816522935473,
+					"parameters": {
+						"text": "\"Content-Type: JSON\""
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 237795480621133,
+					"parameters": {
+						"variable": "AND4",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 501242180103170
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 460090911826226,
+					"parameters": {
+						"variable": "AND1"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 103170590521357,
+					"parameters": {
+						"variable": "AND2"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 437525346452203,
+					"parameters": {
+						"variable": "AND3"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 705418093901638,
+					"parameters": {
+						"variable": "AND4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite6",
+					"sid": 263282677961262,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 568677026206022,
+					"parameters": {
+						"variable": "PartidaTerminada",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 282904716781948
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Joaquin",
+					"sid": 238254185458472,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "3840"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 538409715017443,
+					"parameters": {
+						"variable": "PartidaTerminada"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 357262387602826
 		}
 	],
 	"sid": 796683988281525
