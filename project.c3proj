@@ -89,7 +89,11 @@
 			"PDU2",
 			"PDU3",
 			"PDU4",
-			"FuenteSprite"
+			"FuenteSprite",
+			"FuenteSprite2",
+			"FuenteSprite3",
+			"FuenteSprite4",
+			"Sprite6"
 		],
 		"subfolders": []
 	},
