@@ -1,5 +1,60 @@
 {
 	"name": "Hoja de eventos 4",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 345107402633110
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 552462421886844,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 780183096260762
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 557145756902671,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 752007434951195,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion",
+					"sid": 635945685744117,
+					"parameters": {
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 376968445015505
+		}
+	],
 	"sid": 796683988281525
 }

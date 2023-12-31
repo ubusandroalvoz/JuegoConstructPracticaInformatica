@@ -19,10 +19,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 971,
-						"y": 520,
-						"width": 1961,
-						"height": 1150,
+						"x": 1915,
+						"y": 1055.5,
+						"width": 3849,
+						"height": 2221,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -66,12 +66,85 @@
 						}
 					},
 					"world": {
-						"x": 605,
-						"y": 575,
+						"x": 346,
+						"y": 557,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HojadeInformacion",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 962,
+						"y": 553,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto2",
+					"properties": {
+						"text": "El protocolo TCP, junto a UDP, sostiene la totalidad de la transmisión de información en Internet.\nAl contrario que UDP, TCP se enfoca en mantener la integridad de la información, sacrificando velocidad sin asegurar que ésta llega al destino. El uso de un protocolo sobre otro dependerá directamente de las necesidades a las que deba aplicarse.\nPara comunicarse con el servidor de Github, se ha creado una conexión TCP entre éste y el dispositivo de Joaquín.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": false,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 409,
+						"y": 26,
+						"width": 1054,
+						"height": 378,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
