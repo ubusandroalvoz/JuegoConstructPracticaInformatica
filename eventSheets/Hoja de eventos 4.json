@@ -69,54 +69,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Joaquin",
-					"sid": 602970740749900,
-					"parameters": {
-						"object": "PDU1"
-					}
-				},
-				{
-					"id": "key-is-down",
-					"objectClass": "Teclado",
-					"sid": 956692764569847,
-					"parameters": {
-						"key": 90
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 375740521569567,
-					"parameters": {
-						"variable": "LlevarPDU1",
-						"value": "true"
-					}
-				},
-				{
-					"id": "pin-to-object-properties",
-					"objectClass": "PDU1",
-					"sid": 195738864748240,
-					"behaviorType": "Pegado",
-					"parameters": {
-						"pin-to": "Joaquin",
-						"x": true,
-						"y": true,
-						"angle": true,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				}
-			],
-			"sid": 794542592736336
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
 					"sid": 761895801007221,
@@ -137,9 +89,9 @@
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 350681945420159,
+					"sid": 557760500886108,
 					"parameters": {
-						"variable": "Info1",
+						"variable": "LlevarPDU1",
 						"value": "false"
 					}
 				},
@@ -151,6 +103,54 @@
 				}
 			],
 			"sid": 174097958797485
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 206706034237640,
+					"parameters": {
+						"key": 90
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 614850206573791,
+					"parameters": {
+						"object": "PDU1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 461944294364397,
+					"parameters": {
+						"variable": "LlevarPDU1",
+						"value": "true"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "PDU1",
+					"sid": 651083197929935,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Joaquin",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 230995105553889
 		}
 	],
 	"sid": 796683988281525
