@@ -311,10 +311,16 @@
 					},
 					"uid": 32,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
 					"world": {
-						"x": 3602,
-						"y": 990,
+						"x": 2935,
+						"y": 968,
 						"width": 250,
 						"height": 250,
 						"originX": 0.5,

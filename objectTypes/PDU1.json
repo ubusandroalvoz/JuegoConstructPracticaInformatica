@@ -4,7 +4,13 @@
 	"sid": 352220313542050,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 231503203446871
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

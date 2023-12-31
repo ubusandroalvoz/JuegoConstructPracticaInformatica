@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -31,6 +38,13 @@
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direcciones",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -63,7 +77,8 @@
 			"PDU1",
 			"Sprite4",
 			"ConsolaBufferEntrada",
-			"Sprite5"
+			"Sprite5",
+			"Teclado"
 		],
 		"subfolders": []
 	},
