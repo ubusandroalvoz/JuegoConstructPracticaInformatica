@@ -29,6 +29,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fuente Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
 			"author": "Scirra",
@@ -81,7 +88,8 @@
 			"Teclado",
 			"PDU2",
 			"PDU3",
-			"PDU4"
+			"PDU4",
+			"FuenteSprite"
 		],
 		"subfolders": []
 	},

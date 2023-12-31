@@ -32,6 +32,46 @@
 			"sid": 374503364120068
 		},
 		{
+			"eventType": "variable",
+			"name": "texto1",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 259220025515319
+		},
+		{
+			"eventType": "variable",
+			"name": "texto2",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 326324972887028
+		},
+		{
+			"eventType": "variable",
+			"name": "texto3",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 288072398646559
+		},
+		{
+			"eventType": "variable",
+			"name": "texto4",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 333640113616424
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -325,7 +365,7 @@
 				},
 				{
 					"type": "script",
-					"script": "var texto1, texto2, texto3, texto4;\nconst PDU1 = runtime.objects.PDU1; // GET /index.html HTTP/1.1\nconst PDU2 = runtime.objects.PDU2; // Host: www.example.com\nconst PDU3 = runtime.objects.PDU3; // Accept: text/html\nconst PDU4 = runtime.objects.PDU4; // Content-Type: JSON\n\nvar coordenadas = [PDU1.x, PDU2.x, PDU3.x, PDU4.x];\ncoordenadas.sort(function(a, b) {\n  return a - b;\n});\n\ntexto1 = diccionarioCoordenadas(coordenadas[0]);\ntexto2 = diccionarioCoordenadas(coordenadas[1]);\ntexto3 = diccionarioCoordenadas(coordenadas[2]);\ntexto4 = diccionarioCoordenadas(coordenadas[3]);\n\nfunction diccionarioCoordenadas(x) {\n  if (x === PDU1.x) {\n    return \"GET /index.html HTTP/1.1\";\n  } else if (x === PDU2.x) {\n    return \"Host: github.com/ubusandroalvoz\";\n  } else if (x === PDU3.x) {\n    return \"Accept: text/html\";\n  } else if (x === PDU4.x) {\n    return \"Content-Type: JSON\";\n  } else {\n    return \"Texto no encontrado\";\n  }\n}\n"
+					"script": "var texto1, texto2, texto3, texto4;\nconst PDU1 = runtime.objects.PDU1; // GET /index.html HTTP/1.1\nconst PDU2 = runtime.objects.PDU2; // Host: www.example.com\nconst PDU3 = runtime.objects.PDU3; // Accept: text/html\nconst PDU4 = runtime.objects.PDU4; // Content-Type: JSON\n\nvar coordenadas = [{ x: PDU1.x, y: PDU1.y },{ x: PDU2.x, y: PDU2.y },{ x: PDU3.x, y: PDU3.y },{ x: PDU4.x, y: PDU4.y }];\ncoordenadas = coordenadas.filter(coordenada =>\n  coordenada.x >= 2760 && coordenada.x <= 3750 && coordenada.y >= 840 && coordenada.y <= 1040\n);\ncoordenadas.sort((a, b) => a.x - b.x);\n\ntexto1 = diccionarioCoordenadas(coordenadas[0]);\ntexto2 = diccionarioCoordenadas(coordenadas[1]);\ntexto3 = diccionarioCoordenadas(coordenadas[2]);\ntexto4 = diccionarioCoordenadas(coordenadas[3]);\n\nfunction diccionarioCoordenadas(coordenada) {\n\tif (!coordenada.x) {\n    return \"Coordenada fuera del rango\";\n  }\n  if (coordenada === PDU1.x) {\n    return \"GET /index.html HTTP/1.1\";\n  } else if (coordenada.x === PDU2.x) {\n    return \"Host: github.com/ubusandroalvoz\";\n  } else if (coordenada.x === PDU3.x) {\n    return \"Accept: text/html\";\n  } else if (coordenada.x === PDU4.x) {\n    return \"Content-Type: JSON\";\n  } else {\n    return \"Texto no encontrado\";\n  }\n}\nruntime.objects.FuenteSprite.text= texto1 + \"\\r\\n\" +texto2 + \"\\r\\n\" +texto3 + \"\\r\\n\" +texto4 + \"\\r\\n\";"
 				}
 			],
 			"sid": 191548163426698

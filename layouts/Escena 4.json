@@ -439,6 +439,45 @@
 						"angle": 0,
 						"zElevation": 8
 					}
+				},
+				{
+					"type": "FuenteSprite",
+					"properties": {
+						"text": "\"texto1\"",
+						"enable-bbcode": true,
+						"character-width": 16,
+						"character-height": 16,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
+						"spacing-data": "",
+						"scale": 5,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2760,
+						"y": 202,
+						"width": 744.9080125857635,
+						"height": 430.1137468982131,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							0,
+							0,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 10
+					}
 				}
 			],
 			"sid": 819585937740113,
