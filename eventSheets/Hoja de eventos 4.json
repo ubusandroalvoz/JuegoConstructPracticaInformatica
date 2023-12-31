@@ -12,6 +12,26 @@
 			"sid": 662157622234485
 		},
 		{
+			"eventType": "variable",
+			"name": "LlevarPDU2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 815271532569000
+		},
+		{
+			"eventType": "variable",
+			"name": "LlevarPDU3",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 374503364120068
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -71,54 +91,15 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 761895801007221,
+					"sid": 342479869115308,
 					"parameters": {
-						"key": 90
-					}
-				},
-				{
-					"id": "compare-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 215069759531439,
-					"parameters": {
-						"variable": "LlevarPDU1"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 557760500886108,
-					"parameters": {
-						"variable": "LlevarPDU1",
-						"value": "false"
-					}
-				},
-				{
-					"id": "unpin",
-					"objectClass": "PDU1",
-					"sid": 193958779028634,
-					"behaviorType": "Pegado"
-				}
-			],
-			"sid": 174097958797485
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 206706034237640,
-					"parameters": {
-						"key": 90
+						"key": 88
 					}
 				},
 				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "Joaquin",
-					"sid": 614850206573791,
+					"sid": 325144236105304,
 					"parameters": {
 						"object": "PDU1"
 					}
@@ -128,16 +109,28 @@
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 461944294364397,
+					"sid": 363184961593990,
 					"parameters": {
 						"variable": "LlevarPDU1",
 						"value": "true"
 					}
 				},
 				{
+					"id": "unpin",
+					"objectClass": "PDU2",
+					"sid": 866514555752009,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU3",
+					"sid": 356196490149484,
+					"behaviorType": "Pegado"
+				},
+				{
 					"id": "pin-to-object-properties",
 					"objectClass": "PDU1",
-					"sid": 651083197929935,
+					"sid": 493106183360847,
 					"behaviorType": "Pegado",
 					"parameters": {
 						"pin-to": "Joaquin",
@@ -150,7 +143,188 @@
 					}
 				}
 			],
-			"sid": 230995105553889
+			"sid": 126496747055436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 196096744652964,
+					"parameters": {
+						"key": 88
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 293494390602265,
+					"parameters": {
+						"object": "PDU2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 145487248611837,
+					"parameters": {
+						"variable": "LlevarPDU2",
+						"value": "true"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "PDU2",
+					"sid": 740965576013799,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Joaquin",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU1",
+					"sid": 691001938747896,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU3",
+					"sid": 121636346165198,
+					"behaviorType": "Pegado"
+				}
+			],
+			"sid": 565545007427762
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 940883015737806,
+					"parameters": {
+						"key": 88
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 129041121068357,
+					"parameters": {
+						"object": "PDU3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 551482757736321,
+					"parameters": {
+						"variable": "LlevarPDU3",
+						"value": "true"
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "PDU3",
+					"sid": 818175347412617,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Joaquin",
+						"x": true,
+						"y": true,
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU1",
+					"sid": 610775541001432,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU2",
+					"sid": 390860615361892,
+					"behaviorType": "Pegado"
+				}
+			],
+			"sid": 474990436254808
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 956117761171454,
+					"parameters": {
+						"key": 90
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 758434765417670,
+					"parameters": {
+						"variable": "LlevarPDU1",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 393172983413531,
+					"parameters": {
+						"variable": "LlevarPDU2",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 883439502536008,
+					"parameters": {
+						"variable": "LlevarPDU3",
+						"value": "false"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU1",
+					"sid": 394801763495061,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU2",
+					"sid": 140979846909089,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "unpin",
+					"objectClass": "PDU3",
+					"sid": 540783580629422,
+					"behaviorType": "Pegado"
+				}
+			],
+			"sid": 191548163426698
 		}
 	],
 	"sid": 796683988281525

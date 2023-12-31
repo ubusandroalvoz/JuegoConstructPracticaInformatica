@@ -78,7 +78,9 @@
 			"Sprite4",
 			"ConsolaBufferEntrada",
 			"Sprite5",
-			"Teclado"
+			"Teclado",
+			"PDU2",
+			"PDU3"
 		],
 		"subfolders": []
 	},
