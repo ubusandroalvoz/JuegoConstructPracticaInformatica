@@ -34,7 +34,8 @@
 			"TextoparaInicio",
 			"BotónInicioJuego",
 			"Sprite6",
-			"NombreCreadores"
+			"NombreCreadores",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
@@ -46,13 +47,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Inicio",
+			"Habitacion"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},

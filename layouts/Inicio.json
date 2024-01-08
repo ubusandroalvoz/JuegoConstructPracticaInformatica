@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "Inicio",
 	"layers": [
 		{
 			"name": "Fondo Inicio",
@@ -80,7 +80,7 @@
 			"global": false
 		},
 		{
-			"name": "Capa 0",
+			"name": "Normal",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
