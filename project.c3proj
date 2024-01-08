@@ -33,9 +33,11 @@
 		"items": [
 			"TextoparaInicio",
 			"BotónInicioJuego",
-			"Sprite6",
-			"NombreCreadores",
-			"Sprite2"
+			"FondoPantalla1",
+			"FondoPantalla2",
+			"TextoCreadores",
+			"Botón",
+			"TextoHTTP"
 		],
 		"subfolders": []
 	},

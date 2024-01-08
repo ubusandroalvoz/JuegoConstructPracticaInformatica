@@ -5,52 +5,7 @@
 			"name": "Fondo Inicio",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [
-				{
-					"type": "NombreCreadores",
-					"properties": {
-						"text": "Sandro Alvoz y Ángel Gallego",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 20,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.984313725490196,
-							1,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 4,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 132,
-						"y": 1105,
-						"width": 308,
-						"height": 81,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
+			"instances": [],
 			"sid": 180277995464146,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -85,7 +40,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite6",
+					"type": "FondoPantalla1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -97,10 +52,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 960,
-						"y": 540.5,
-						"width": 1919,
-						"height": 1080,
+						"x": 960.5,
+						"y": 538,
+						"width": 1924,
+						"height": 1081,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -142,9 +97,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 346,
-						"y": 157,
-						"width": 1186,
-						"height": 315,
+						"y": 160,
+						"width": 1193,
+						"height": 312,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -161,7 +116,7 @@
 					"type": "BotónInicioJuego",
 					"properties": {
 						"type": "button",
-						"text": "Iniciar",
+						"text": "Comienza a Jugar",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -186,6 +141,50 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "TextoCreadores",
+					"properties": {
+						"text": "Sandro Alvoz y Ángel Gallego",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.984313725490196,
+							1,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 994,
+						"width": 545,
+						"height": 58,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

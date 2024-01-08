@@ -1,5 +1,18 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 619469534092121
+				}
+			],
+			"actions": [],
+			"sid": 785774536350025
+		}
+	],
 	"sid": 808432256349833
 }
