@@ -100,13 +100,13 @@
 					}
 				},
 				{
-					"type": "TextoHTTP",
+					"type": "TextoHTTPLibro",
 					"properties": {
-						"text": "Texto de ejemplo",
+						"text": "El Protocolo HTTP es un protocolo utilizado para la transmisión de documentos hipermedia, permitiendo que comuniquemos  navegador con servidores web.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
+						"size": 30,
+						"line-height": 2,
 						"bold": false,
 						"italic": false,
 						"color": [
@@ -127,12 +127,145 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2082,
-						"y": 103,
-						"width": 200,
-						"height": 30,
+						"x": 731,
+						"y": 390,
+						"width": 600,
+						"height": 315,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TextoHTTPLibro2",
+					"properties": {
+						"text": "HTTP opera sobre el protocolo TCP, que se encarga de mantener la comunicación y garantizar la integridad de la información transmitida.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1934,
+						"y": 339,
+						"width": 601,
+						"height": 261,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": "Libros",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 339,
+						"y": 869,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 816,
+						"y": 1692,
+						"width": 2164,
+						"height": 936,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2881.5,
+						"y": 1619.5,
+						"width": 1921,
+						"height": 1077,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,

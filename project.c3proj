@@ -37,7 +37,12 @@
 			"FondoPantalla2",
 			"TextoCreadores",
 			"Botón",
-			"TextoHTTP"
+			"TextoHTTPLibro",
+			"TextoHTTPLibro2",
+			"Botón2",
+			"Sprite",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
@@ -50,14 +55,16 @@
 	"layouts": {
 		"items": [
 			"Inicio",
-			"Habitacion"
+			"Habitacion",
+			"TextoHTTP"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},
