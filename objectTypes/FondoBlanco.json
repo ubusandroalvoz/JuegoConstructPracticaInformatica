@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "FondoBlanco",
 	"plugin-id": "Sprite",
-	"sid": 525321540636313,
+	"sid": 342542203110112,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 626,
-						"height": 188,
+						"width": 222,
+						"height": 148,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3592962,
+						"imageSpriteId": 762242,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 921986506142724,
+				"sid": 582548984402374,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

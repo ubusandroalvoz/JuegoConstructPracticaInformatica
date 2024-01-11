@@ -36,13 +36,14 @@
 			"FondoPantalla1",
 			"FondoPantalla2",
 			"TextoCreadores",
-			"Botón",
 			"TextoHTTPLibro",
 			"TextoHTTPLibro2",
-			"Botón2",
-			"Sprite",
-			"Sprite2",
-			"Sprite3"
+			"FondoPantalla3",
+			"FondoPantalla4",
+			"FondoBlanco",
+			"BotonPortatil",
+			"BotonLibro",
+			"BotonVolver1"
 		],
 		"subfolders": []
 	},
@@ -56,7 +57,8 @@
 		"items": [
 			"Inicio",
 			"Habitacion",
-			"TextoHTTP"
+			"TextoIntroduccionHTTP",
+			"TextoPortatilHTTP"
 		],
 		"subfolders": []
 	},
@@ -64,7 +66,8 @@
 		"items": [
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
-			"Hoja de eventos 3"
+			"Hoja de eventos 3",
+			"Hoja de eventos 4"
 		],
 		"subfolders": []
 	},

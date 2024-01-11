@@ -1,5 +1,5 @@
 {
-	"name": "TextoHTTP",
+	"name": "TextoIntroduccionHTTP",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite3",
+					"type": "FondoBlanco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

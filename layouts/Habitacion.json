@@ -52,10 +52,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 960,
-						"y": 543,
-						"width": 1918,
-						"height": 1083,
+						"x": 2844,
+						"y": 1664,
+						"width": 1831,
+						"height": 975,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -69,157 +69,7 @@
 					}
 				},
 				{
-					"type": "Botón",
-					"properties": {
-						"type": "button",
-						"text": "Ordenador",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 621,
-						"y": 201,
-						"width": 87,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "TextoHTTPLibro",
-					"properties": {
-						"text": "El Protocolo HTTP es un protocolo utilizado para la transmisión de documentos hipermedia, permitiendo que comuniquemos  navegador con servidores web.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 30,
-						"line-height": 2,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 731,
-						"y": 390,
-						"width": 600,
-						"height": 315,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TextoHTTPLibro2",
-					"properties": {
-						"text": "HTTP opera sobre el protocolo TCP, que se encarga de mantener la comunicación y garantizar la integridad de la información transmitida.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 30,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1934,
-						"y": 339,
-						"width": 601,
-						"height": 261,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Botón2",
-					"properties": {
-						"type": "button",
-						"text": "Libros",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 339,
-						"y": 869,
-						"width": 72,
-						"height": 24,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Sprite",
+					"type": "FondoPantalla3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -248,7 +98,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "FondoPantalla4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -260,10 +110,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2881.5,
-						"y": 1619.5,
-						"width": 1921,
-						"height": 1077,
+						"x": 960,
+						"y": 543.5,
+						"width": 1924,
+						"height": 1083,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -274,6 +124,99 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "BotonPortatil",
+					"properties": {
+						"type": "button",
+						"text": "Portatil",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 366,
+						"y": 659,
+						"width": 77,
+						"height": 31,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "BotonLibro",
+					"properties": {
+						"type": "button",
+						"text": "Libro Introduccion",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 492,
+						"y": 392,
+						"width": 119,
+						"height": 43,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "BotonVolver1",
+					"properties": {
+						"type": "button",
+						"text": "Inicio",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1690,
+						"y": 1017,
+						"width": 208,
+						"height": 54,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

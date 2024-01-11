@@ -6,12 +6,63 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "Botón",
-					"sid": 619469534092121
+					"objectClass": "BotonLibro",
+					"sid": 672109572553670
 				}
 			],
-			"actions": [],
-			"sid": 785774536350025
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 107716514951014,
+					"parameters": {
+						"layout": "TextoIntroduccionHTTP"
+					}
+				}
+			],
+			"sid": 251448719968079
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonPortatil",
+					"sid": 769958565365462
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 635470113669932,
+					"parameters": {
+						"layout": "TextoPortatilHTTP"
+					}
+				}
+			],
+			"sid": 114248695819669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVolver1",
+					"sid": 751760085785850
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 606895912825728,
+					"parameters": {
+						"layout": "Inicio"
+					}
+				}
+			],
+			"sid": 166800331567384
 		}
 	],
 	"sid": 808432256349833
