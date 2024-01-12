@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "Botón",
+					"objectClass": "Boton",
 					"sid": 326550911714984
 				}
 			],

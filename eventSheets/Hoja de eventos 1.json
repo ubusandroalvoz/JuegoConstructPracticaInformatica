@@ -6,22 +6,22 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "BotónInicioJuego",
-					"sid": 389325213934496
+					"objectClass": "BotonLibro",
+					"sid": 855792616650918
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-nextprevious-layout",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 172846289303006,
+					"sid": 440743904695470,
 					"parameters": {
-						"which": "next"
+						"layout": "Inicio"
 					}
 				}
 			],
-			"sid": 993047881190805
+			"sid": 736184796324883
 		}
 	],
-	"sid": 732250286857852
+	"sid": 601528033076459
 }

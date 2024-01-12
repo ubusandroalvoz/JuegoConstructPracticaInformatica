@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "on-clicked",
-					"objectClass": "BotónInicioJuego",
+					"objectClass": "BotonInicioJuego",
 					"sid": 851951921531454
 				}
 			],

@@ -1,7 +1,7 @@
 {
-	"name": "Botón2",
+	"name": "BotonInicioJuego",
 	"plugin-id": "Button",
-	"sid": 377728380180133,
+	"sid": 697221793103927,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []

@@ -285,7 +285,7 @@
 					}
 				},
 				{
-					"type": "Botón",
+					"type": "Boton",
 					"properties": {
 						"type": "button",
 						"text": "Vuelta a Habitacion",

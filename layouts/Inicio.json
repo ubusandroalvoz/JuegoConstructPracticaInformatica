@@ -80,7 +80,7 @@
 					}
 				},
 				{
-					"type": "BotónInicioJuego",
+					"type": "BotonInicioJuego",
 					"properties": {
 						"type": "button",
 						"text": "Comienza a Jugar",
