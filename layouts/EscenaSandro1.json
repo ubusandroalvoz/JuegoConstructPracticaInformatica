@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "EscenaSandro1",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Servidor",
+					"type": "Joaquin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 11,
+					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direcciones": {
@@ -29,73 +29,64 @@
 								"default-controls": true,
 								"enabled": false
 							}
+						},
+						"DesplazarHasta": {
+							"properties": {
+								"enabled": false
+							}
 						}
 					},
 					"world": {
-						"x": 735,
-						"y": 1660,
-						"width": 364,
-						"height": 343,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Fondo",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 980.5,
-						"y": 575,
-						"width": 1961,
-						"height": 1150,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "HojadeInformacion",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 901,
-						"y": 720,
+						"x": 228,
+						"y": 1382,
 						"width": 250,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.212,
+						"originY": 0.332,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto",
+					"properties": {
+						"text": "Un SERVIDOR es un dispositivo informático que ofrece servicios a uno o varios usuarios en una red. Puede ser de varios tipos según su funcionalidad: FTP, de correo, web, bases de datos...\nUn CLIENTE es el usuario que hace uso de estos servicios.\nGran parte de las redes del mundo se basan en esta estructura: plataformas de streaming, páginas web, juegos en línea...\nEl CLIENTE y el SERVIDOR dependen el uno del otro y mantienen una relación simbiótica.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 32,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 698,
+						"y": 1117,
+						"width": 1621,
+						"height": 497,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -115,14 +106,87 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 15,
+					"uid": 5,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 399,
-						"y": 611,
-						"width": 464,
-						"height": 361,
+						"x": 451,
+						"y": 1469,
+						"width": 337,
+						"height": 263,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Texto1",
+					"properties": {
+						"text": "Utiliza las flechas de movimiento para desplazarte.",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 517,
+						"y": 233,
+						"width": 908,
+						"height": 175,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "HojadeInformacion",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1018,
+						"y": 657,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -138,7 +202,7 @@
 				{
 					"type": "Texto2",
 					"properties": {
-						"text": "Un CLIENTE es el usuario que hace uso de estos servicios.",
+						"text": "Un SERVIDOR es un dispositivo informático que ofrece servicios a uno o varios usuarios en una red. Puede ser de varios tipos según su funcionalidad: FTP, de correo, web, bases de datos...",
 						"enable-bbcode": true,
 						"font": "fantasy",
 						"size": 30,
@@ -159,12 +223,12 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 16,
+					"uid": 9,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 402,
-						"y": 120,
+						"x": 507,
+						"y": 133,
 						"width": 951,
 						"height": 282,
 						"originX": 0,
@@ -180,7 +244,7 @@
 					}
 				},
 				{
-					"type": "Joaquin",
+					"type": "FlechaEpica",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -188,7 +252,36 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 10,
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1740,
+						"y": 573,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Servidor",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
 					"instanceVariables": {},
 					"behaviors": {
 						"8Direcciones": {
@@ -202,20 +295,15 @@
 								"default-controls": true,
 								"enabled": true
 							}
-						},
-						"DesplazarHasta": {
-							"properties": {
-								"enabled": false
-							}
 						}
 					},
 					"world": {
-						"x": 234,
-						"y": 736,
-						"width": 330.9360699405778,
-						"height": 325.2229355918312,
-						"originX": 0.212,
-						"originY": 0.332,
+						"x": 427,
+						"y": 799,
+						"width": 364,
+						"height": 343,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -223,11 +311,11 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 7
+						"zElevation": 2
 					}
 				}
 			],
-			"sid": 480630172765308,
+			"sid": 941287060169540,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -238,9 +326,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				1,
+				1,
+				1,
 				1
 			],
 			"isTransparent": false,
@@ -256,7 +344,7 @@
 			"global": false
 		}
 	],
-	"sid": 101543891235866,
+	"sid": 438887409969694,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -265,5 +353,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "HojaEscena2"
+	"eventSheet": "HojaEscena1"
 }
