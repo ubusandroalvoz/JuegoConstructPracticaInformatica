@@ -1,5 +1,5 @@
 {
-	"name": "TextoPortatilHTTP",
+	"name": "TexroPortatilHTTP2",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -15,12 +15,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 20,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1914,
-						"y": 1082,
+						"x": 1922,
+						"y": 1088,
 						"width": 3867,
 						"height": 2197,
 						"originX": 0.5,
@@ -36,12 +36,12 @@
 					}
 				},
 				{
-					"type": "TextoPortatil",
+					"type": "TextoFuncionamientoPortatil",
 					"properties": {
-						"text": "Hay diferentes métodos para HTTP que indicaran la acción que se desea hacer:\nGET: recibe información\nPOST: envía información al servidor\nPUT: actualiza completamente un recurso de la información enviada\nPATCH: actualiza parcialmente un recurso de la información enviada\nDelete: borra un recurso",
+						"text": "1.El usuario accede a una URL a través de HTTP\n\n2.El cliente descodifica la URL, separando sus partes e identificando el protocolo de acceso, la dirección DNS o IP, el número del puerto y el objeto demandado\n\n3.Se abre una conexión TCP/IP entre el siguiente y el servidor.\n\n4. Se realiza la petición HTTP, incluyendo el método, la versión de HTTP y la información \nde la petición.\n\n5.El servidor devuelve la respuesta junto a un código de estado\n\n6.Se cierra la conexión TCP.",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 45,
+						"size": 33,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -59,14 +59,14 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 21,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 22,
-						"y": 19,
-						"width": 843,
-						"height": 864,
+						"x": 20,
+						"y": 32,
+						"width": 838,
+						"height": 1018,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -80,66 +80,22 @@
 					}
 				},
 				{
-					"type": "TextoPortatil2",
-					"properties": {
-						"text": "En cada intercambio de información, el servidor devuelve un codigo que indica un resultado, este codigo se conoce como codigos de estado.",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 37,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 22,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 908,
-						"y": 22,
-						"width": 936,
-						"height": 225,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
+					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animación 1",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 23,
+					"uid": 27,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1344,
-						"y": 604,
-						"width": 878,
-						"height": 699,
+						"x": 1403,
+						"y": 168,
+						"width": 1019,
+						"height": 247,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -153,41 +109,39 @@
 					}
 				},
 				{
-					"type": "BotonVolverHabitacionPortatil",
+					"type": "Sprite3",
 					"properties": {
-						"type": "button",
-						"text": "Vuelta a Habitacion",
-						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 24,
+					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1570,
-						"y": 974,
-						"width": 285,
-						"height": 68,
-						"originX": 0,
-						"originY": 0,
+						"x": 1397.5,
+						"y": 564,
+						"width": 983,
+						"height": 416,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
-					"type": "BotonPasarEscena",
+					"type": "BotonVueltaHabitacionPortatil2",
 					"properties": {
 						"type": "button",
-						"text": "Siguiente Pagina",
+						"text": "Vuelta a habitacion",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -196,14 +150,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 30,
+					"uid": 29,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1246,
-						"y": 970,
-						"width": 303,
-						"height": 72,
+						"x": 1599,
+						"y": 972,
+						"width": 277,
+						"height": 63,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -215,7 +169,7 @@
 					}
 				}
 			],
-			"sid": 407198237089454,
+			"sid": 896742472474820,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -244,7 +198,7 @@
 			"global": false
 		}
 	],
-	"sid": 188710059880647,
+	"sid": 648383050204535,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -253,5 +207,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 4"
+	"eventSheet": "Hoja de eventos 5"
 }

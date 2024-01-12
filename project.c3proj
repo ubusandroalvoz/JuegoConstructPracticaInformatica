@@ -52,7 +52,12 @@
 			"TextoPortatil",
 			"TextoPortatil2",
 			"Sprite",
-			"BotonVolverHabitacionPortatil"
+			"BotonVolverHabitacionPortatil",
+			"TextoFuncionamientoPortatil",
+			"Sprite2",
+			"Sprite3",
+			"BotonVueltaHabitacionPortatil2",
+			"BotonPasarEscena"
 		],
 		"subfolders": []
 	},
@@ -67,7 +72,8 @@
 			"Inicio",
 			"Habitacion",
 			"TextoIntroduccionHTTP",
-			"TextoPortatilHTTP"
+			"TextoPortatilHTTP",
+			"TexroPortatilHTTP2"
 		],
 		"subfolders": []
 	},
@@ -76,7 +82,8 @@
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
-			"Hoja de eventos 4"
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},
