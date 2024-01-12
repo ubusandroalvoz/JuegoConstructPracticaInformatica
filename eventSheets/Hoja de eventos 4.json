@@ -1,0 +1,48 @@
+{
+	"name": "Hoja de eventos 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVolverHabitacionPortatil",
+					"sid": 950504191030690
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 994710402808655,
+					"parameters": {
+						"layout": "Habitacion"
+					}
+				}
+			],
+			"sid": 205425324575714
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonPasarEscena",
+					"sid": 129325451023835
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 363190556836843,
+					"parameters": {
+						"layout": "TexroPortatilHTTP2"
+					}
+				}
+			],
+			"sid": 939252764713407
+		}
+	],
+	"sid": 673230889218618
+}

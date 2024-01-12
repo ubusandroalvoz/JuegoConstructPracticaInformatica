@@ -1,0 +1,27 @@
+{
+	"name": "Hoja de eventos 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVueltaHabitacionPortatil2",
+					"sid": 325438590631184
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 856038823311104,
+					"parameters": {
+						"layout": "Habitacion"
+					}
+				}
+			],
+			"sid": 232551465012556
+		}
+	],
+	"sid": 107025845968379
+}
