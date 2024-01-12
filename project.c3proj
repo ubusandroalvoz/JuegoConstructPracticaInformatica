@@ -66,6 +66,7 @@
 	"uniqueId": "5jw603iv87u",
 	"objectTypes": {
 		"items": [
+<<<<<<< HEAD
 			"Joaquin",
 			"Texto",
 			"Cliente",
@@ -93,6 +94,35 @@
 			"FuenteSprite3",
 			"FuenteSprite4",
 			"FlechaEpica2"
+=======
+			"TextoparaInicio",
+			"BotónInicioJuego",
+			"FondoPantalla1",
+			"FondoPantalla2",
+			"TextoCreadores",
+			"TextoHTTPLibro",
+			"TextoHTTPLibro2",
+			"FondoPantalla3",
+			"FondoPantalla4",
+			"FondoBlanco",
+			"BotonPortatil",
+			"BotonLibro",
+			"BotonVolver1",
+			"TextoHTTPLibro3",
+			"TextoHTTPLibro5",
+			"TextoHTTPLibro4",
+			"PCHTTP",
+			"Botón",
+			"TextoPortatil",
+			"TextoPortatil2",
+			"Sprite",
+			"BotonVolverHabitacionPortatil",
+			"TextoFuncionamientoPortatil",
+			"Sprite2",
+			"Sprite3",
+			"BotonVueltaHabitacionPortatil2",
+			"BotonPasarEscena"
+>>>>>>> parent of 4bd18a4 (cambio de nombres)
 		],
 		"subfolders": []
 	},

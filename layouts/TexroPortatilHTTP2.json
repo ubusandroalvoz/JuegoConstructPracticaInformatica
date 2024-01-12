@@ -80,7 +80,7 @@
 					}
 				},
 				{
-					"type": "ExplicacionHTTP2",
+					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"type": "ExplicacionHTTP3",
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

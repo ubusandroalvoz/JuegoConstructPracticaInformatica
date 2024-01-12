@@ -1,7 +1,11 @@
 {
 	"name": "Sprite3",
 	"plugin-id": "Sprite",
+<<<<<<< HEAD
 	"sid": 727138721517103,
+=======
+	"sid": 455032133109853,
+>>>>>>> parent of 4bd18a4 (cambio de nombres)
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +15,33 @@
 			{
 				"frames": [
 					{
+<<<<<<< HEAD
 						"width": 250,
 						"height": 250,
+=======
+						"width": 453,
+						"height": 196,
+>>>>>>> parent of 4bd18a4 (cambio de nombres)
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
+<<<<<<< HEAD
 						"imageSpriteId": 5042401,
+=======
+						"imageSpriteId": 6310459,
+>>>>>>> parent of 4bd18a4 (cambio de nombres)
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
+<<<<<<< HEAD
 				"sid": 717461270062296,
+=======
+				"sid": 355384262191751,
+>>>>>>> parent of 4bd18a4 (cambio de nombres)
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

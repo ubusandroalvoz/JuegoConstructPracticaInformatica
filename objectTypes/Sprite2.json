@@ -1,7 +1,7 @@
 {
-	"name": "ExplicacionHTTP3",
+	"name": "Sprite2",
 	"plugin-id": "Sprite",
-	"sid": 455032133109853,
+	"sid": 812224663486607,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 453,
-						"height": 196,
+						"width": 553,
+						"height": 132,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6310459,
+						"imageSpriteId": 5942210,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 355384262191751,
+				"sid": 669951478179118,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
