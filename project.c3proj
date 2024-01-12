@@ -8,8 +8,15 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Button",
-			"name": "Botón",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -22,8 +29,36 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fuente Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direcciones",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Desplazar hasta",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -31,33 +66,33 @@
 	"uniqueId": "5jw603iv87u",
 	"objectTypes": {
 		"items": [
-			"TextoparaInicio",
-			"BotónInicioJuego",
-			"FondoPantalla1",
-			"FondoPantalla2",
-			"TextoCreadores",
-			"TextoHTTPLibro",
-			"TextoHTTPLibro2",
-			"FondoPantalla3",
-			"FondoPantalla4",
-			"FondoBlanco",
-			"BotonPortatil",
-			"BotonLibro",
-			"BotonVolver1",
-			"TextoHTTPLibro3",
-			"TextoHTTPLibro5",
-			"TextoHTTPLibro4",
-			"PCHTTP",
-			"Botón",
-			"TextoPortatil",
-			"TextoPortatil2",
-			"ExplicacionHTTP1",
-			"BotonVolverHabitacionPortatil",
-			"TextoFuncionamientoPortatil",
-			"ExplicacionHTTP2",
-			"ExplicacionHTTP3",
-			"BotonVueltaHabitacionPortatil2",
-			"BotonPasarEscena"
+			"Joaquin",
+			"Texto",
+			"Cliente",
+			"Servidor",
+			"Texto1",
+			"HojadeInformacion",
+			"Texto2",
+			"FlechaEpica",
+			"Fondo",
+			"Texto3",
+			"HojadeInformacion2",
+			"Sprite3",
+			"Mouse",
+			"BufferEntrada",
+			"PDU1",
+			"Sprite4",
+			"ConsolaBufferEntrada",
+			"Sprite5",
+			"Teclado",
+			"PDU2",
+			"PDU3",
+			"PDU4",
+			"FuenteSprite",
+			"FuenteSprite2",
+			"FuenteSprite3",
+			"FuenteSprite4",
+			"FlechaEpica2"
 		],
 		"subfolders": []
 	},
@@ -69,21 +104,19 @@
 	},
 	"layouts": {
 		"items": [
-			"Inicio",
-			"Habitacion",
-			"TextoIntroduccionHTTP",
-			"TextoPortatilHTTP",
-			"TexroPortatilHTTP2"
+			"EscenaSandro1",
+			"EscenaSandro2",
+			"EscenaSandro3",
+			"EscenaSandro4"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"HojaEventosAngel1",
-			"HojaEventosAngel2",
-			"HojaEventosAngel3",
-			"HojaEventosAngel4",
-			"HojaEventosAngel5"
+			"HojaEscena1",
+			"HojaEscena2",
+			"HojaEscena3",
+			"HojaEscena4"
 		],
 		"subfolders": []
 	},
@@ -211,7 +244,7 @@
 			1,
 			0
 		],
-		"useThemeColor": false,
+		"useThemeColor": true,
 		"themeColor": [
 			1,
 			1,
@@ -241,5 +274,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "EscenaSandro1"
 }
