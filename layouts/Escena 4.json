@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "FlechaEpica",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -641,7 +641,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "FlechaEpica2",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -708,5 +708,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 4"
+	"eventSheet": "HojaEscena4"
 }

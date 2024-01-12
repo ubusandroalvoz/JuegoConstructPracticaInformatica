@@ -912,7 +912,7 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "Sprite6",
+					"objectClass": "FlechaEpica2",
 					"sid": 263282677961262,
 					"parameters": {
 						"visibility": "visible"

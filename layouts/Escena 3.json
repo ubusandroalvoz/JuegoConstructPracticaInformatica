@@ -338,5 +338,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 3"
+	"eventSheet": "HojaEscena3"
 }
