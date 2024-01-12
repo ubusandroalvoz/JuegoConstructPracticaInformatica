@@ -43,7 +43,16 @@
 			"FondoBlanco",
 			"BotonPortatil",
 			"BotonLibro",
-			"BotonVolver1"
+			"BotonVolver1",
+			"TextoHTTPLibro3",
+			"TextoHTTPLibro5",
+			"TextoHTTPLibro4",
+			"PCHTTP",
+			"Botón",
+			"TextoPortatil",
+			"TextoPortatil2",
+			"Sprite",
+			"BotonVolverHabitacionPortatil"
 		],
 		"subfolders": []
 	},
