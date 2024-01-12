@@ -67,14 +67,13 @@
 	"objectTypes": {
 		"items": [
 			"Joaquin",
-			"Sprite",
 			"Texto",
 			"Cliente",
 			"Servidor",
 			"Texto1",
 			"HojadeInformacion",
 			"Texto2",
-			"Sprite2",
+			"FlechaEpica",
 			"Fondo",
 			"Texto3",
 			"HojadeInformacion2",
@@ -93,7 +92,7 @@
 			"FuenteSprite2",
 			"FuenteSprite3",
 			"FuenteSprite4",
-			"Sprite6"
+			"FlechaEpica2"
 		],
 		"subfolders": []
 	},

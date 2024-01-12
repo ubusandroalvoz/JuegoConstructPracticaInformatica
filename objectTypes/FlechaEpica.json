@@ -1,7 +1,7 @@
 {
-	"name": "Sprite6",
+	"name": "FlechaEpica",
 	"plugin-id": "Sprite",
-	"sid": 505048915141599,
+	"sid": 835789481990646,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 856797,
+						"imageSpriteId": 6914209,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
@@ -31,7 +31,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1901267,
+						"imageSpriteId": 1813046,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
@@ -44,7 +44,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4514105,
+						"imageSpriteId": 7033035,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
@@ -57,13 +57,13 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5313929,
+						"imageSpriteId": 2884557,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 279266513972720,
+				"sid": 873324416938250,
 				"name": "Animation 1",
 				"isLooping": true,
 				"isPingPong": false,
