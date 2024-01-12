@@ -1,13 +1,7 @@
 {
-<<<<<<<< HEAD:objectTypes/PCHTTP.json
-	"name": "PCHTTP",
+	"name": "BufferEntrada",
 	"plugin-id": "Sprite",
-	"sid": 602412385779041,
-========
-	"name": "Fondo",
-	"plugin-id": "Sprite",
-	"sid": 563294841911194,
->>>>>>>> RamaSandro2:objectTypes/Fondo.json
+	"sid": 390375692514615,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -17,28 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 259,
-						"height": 194,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-<<<<<<<< HEAD:objectTypes/PCHTTP.json
-						"imageSpriteId": 2810591,
-========
-						"imageSpriteId": 1563750,
->>>>>>>> RamaSandro2:objectTypes/Fondo.json
+						"imageSpriteId": 6093812,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-<<<<<<<< HEAD:objectTypes/PCHTTP.json
-				"sid": 256619859094730,
-========
-				"sid": 822349359951451,
->>>>>>>> RamaSandro2:objectTypes/Fondo.json
+				"sid": 429474302660818,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

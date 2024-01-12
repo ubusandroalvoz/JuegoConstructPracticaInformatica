@@ -1,0 +1,126 @@
+{
+	"name": "HojaEscena1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "OpacidadTexto1",
+			"type": "number",
+			"initialValue": "100",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 907592070640673
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Servidor",
+					"sid": 446290039031187,
+					"behaviorType": "8Direcciones"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Texto1",
+					"sid": 937856674167434,
+					"parameters": {
+						"opacity": "OpacidadTexto1"
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 240955170828681,
+					"parameters": {
+						"variable": "OpacidadTexto1",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 943469100799711
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 348782195563736
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 435190205950829,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 544208031042994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Servidor",
+					"sid": 711550238431727,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 633780229243543,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion",
+					"sid": 435801539625519,
+					"parameters": {
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 224347959135224
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Servidor",
+					"sid": 242563712723894,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "1920"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 288766617529961,
+					"parameters": {
+						"layout": "EscenaSandro2"
+					}
+				}
+			],
+			"sid": 874304818682526
+		}
+	],
+	"sid": 732250286857852
+}
