@@ -1,0 +1,27 @@
+{
+	"name": "HojaEventosAngel1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotónInicioJuego",
+					"sid": 851951921531454
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 939388221808085,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 361852407015139
+		}
+	],
+	"sid": 123144031677818
+}

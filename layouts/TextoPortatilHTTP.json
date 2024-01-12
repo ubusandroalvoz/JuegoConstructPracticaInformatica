@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 20,
+					"uid": 63,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -59,7 +59,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 21,
+					"uid": 64,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -103,7 +103,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 22,
+					"uid": 65,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -124,7 +124,7 @@
 					}
 				},
 				{
-					"type": "ExplicacionHTTP1",
+					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animación 1",
@@ -132,7 +132,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 23,
+					"uid": 66,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -165,7 +165,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 24,
+					"uid": 67,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -196,7 +196,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 30,
+					"uid": 68,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -215,7 +215,7 @@
 					}
 				}
 			],
-			"sid": 407198237089454,
+			"sid": 688239439603764,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -244,7 +244,7 @@
 			"global": false
 		}
 	],
-	"sid": 188710059880647,
+	"sid": 896493669505119,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -253,5 +253,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 4"
+	"eventSheet": "HojaEventosAngel4"
 }

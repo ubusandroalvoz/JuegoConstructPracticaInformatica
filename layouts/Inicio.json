@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 7,
+					"uid": 3,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -59,7 +59,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 2,
+					"uid": 46,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -92,7 +92,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 3,
+					"uid": 47,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -134,7 +134,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 4,
+					"uid": 48,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -155,7 +155,7 @@
 					}
 				}
 			],
-			"sid": 941287060169540,
+			"sid": 729623292028565,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -184,7 +184,7 @@
 			"global": false
 		}
 	],
-	"sid": 438887409969694,
+	"sid": 114118844044189,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -193,5 +193,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "HojaEventosAngel1"
 }

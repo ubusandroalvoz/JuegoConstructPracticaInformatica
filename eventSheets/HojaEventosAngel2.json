@@ -1,0 +1,90 @@
+{
+	"name": "HojaEventosAngel2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonLibro",
+					"sid": 819560999717061
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 912763354235043,
+					"parameters": {
+						"layout": "TextoIntroduccionHTTP"
+					}
+				}
+			],
+			"sid": 725416278441656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonPortatil",
+					"sid": 687774658845646
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 450941961265752,
+					"parameters": {
+						"layout": "TextoPortatilHTTP"
+					}
+				}
+			],
+			"sid": 616784176475443
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVolver1",
+					"sid": 318571225275809
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 758023642059872,
+					"parameters": {
+						"layout": "Inicio"
+					}
+				}
+			],
+			"sid": 873591043122750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonLibro3",
+					"sid": 383310308079855
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 467426237949763,
+					"parameters": {
+						"layout": "EscenaSandro1"
+					}
+				}
+			],
+			"sid": 818326024867679
+		}
+	],
+	"sid": 723540029316057
+}

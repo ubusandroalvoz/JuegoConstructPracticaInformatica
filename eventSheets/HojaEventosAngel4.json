@@ -1,0 +1,48 @@
+{
+	"name": "HojaEventosAngel4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVolverHabitacionPortatil",
+					"sid": 125343589516560
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 996038796665395,
+					"parameters": {
+						"layout": "Habitacion"
+					}
+				}
+			],
+			"sid": 845939034195864
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonPasarEscena",
+					"sid": 470711520571032
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 494757505631362,
+					"parameters": {
+						"layout": "TexroPortatilHTTP2"
+					}
+				}
+			],
+			"sid": 840433082499988
+		}
+	],
+	"sid": 573116865672365
+}

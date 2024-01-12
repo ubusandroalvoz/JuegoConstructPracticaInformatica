@@ -8,8 +8,64 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Fuente Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direcciones",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Pegado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Desplazar hasta",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -18,7 +74,86 @@
 	"objectTypes": {
 		"items": [
 			"Joaquin",
-			"Sprite"
+			"Texto",
+			"Cliente",
+			"Servidor",
+			"Texto1",
+			"HojadeInformacion",
+			"Texto2",
+			"FlechaEpica",
+			"Fondo",
+			"Texto3",
+			"HojadeInformacion2",
+			"Continuar",
+			"Mouse",
+			"BufferEntrada",
+			"PDU1",
+			"Sprite4",
+			"ConsolaBufferEntrada",
+			"Sprite5",
+			"Teclado",
+			"PDU2",
+			"PDU3",
+			"PDU4",
+			"FuenteSprite",
+			"FuenteSprite2",
+			"FuenteSprite3",
+			"FuenteSprite4",
+			"FlechaEpica2",
+			"BotónInicioJuego",
+			"BotonPortatil",
+			"BotonLibro",
+			"BotonVolver1",
+			"Botón",
+			"BotonVolverHabitacionPortatil",
+			"BotonPasarEscena",
+			"BotonVueltaHabitacionPortatil2",
+			"TextoparaInicio",
+			"TextoCreadores",
+			"TextoHTTPLibro",
+			"TextoHTTPLibro2",
+			"TextoHTTPLibro3",
+			"TextoHTTPLibro5",
+			"TextoHTTPLibro4",
+			"TextoPortatil",
+			"TextoPortatil2",
+			"TextoFuncionamientoPortatil",
+			"FondoBlanco",
+			"PCHTTP",
+			"Sprite",
+			"Sprite2",
+			"FondoPantalla3",
+			"FondoPantalla4",
+			"FondoPantalla2",
+			"FondoPantalla1",
+			"BotonLibro2",
+			"BotonPasarEscena2",
+			"BotonPortatil2",
+			"BotonVolver2",
+			"BotonVolverHabitacionPortatil2",
+			"BotonVueltaHabitacionPortatil3",
+			"Botón2",
+			"BotónInicioJuego2",
+			"FondoBlanco2",
+			"FondoPantalla5",
+			"FondoPantalla6",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"PCHTTP2",
+			"FondoPantalla7",
+			"FondoPantalla8",
+			"TextoCreadores2",
+			"TextoFuncionamientoPortatil2",
+			"TextoHTTPLibro6",
+			"TextoHTTPLibro7",
+			"TextoHTTPLibro8",
+			"TextoHTTPLibro9",
+			"TextoPortatil3",
+			"TextoPortatil4",
+			"TextoparaInicio2",
+			"TextoHTTPLibro10",
+			"BotonLibro3"
 		],
 		"subfolders": []
 	},
@@ -30,12 +165,30 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Inicio",
+			"Habitacion",
+			"TextoIntroduccionHTTP",
+			"TexroPortatilHTTP2",
+			"TextoPortatilHTTP",
+			"EscenaSandro1",
+			"EscenaSandro2",
+			"EscenaSandro3",
+			"EscenaSandro4",
+			"VolverAJugar"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+			"HojaEscena1",
+			"HojaEscena2",
+			"HojaEscena3",
+			"HojaEscena4",
+			"HojaEventosAngel1",
+			"HojaEventosAngel2",
+			"HojaEventosAngel4",
+			"HojaEventosAngel5",
+			"HojaEventosAngel3",
 			"Hoja de eventos 1"
 		],
 		"subfolders": []
@@ -164,7 +317,7 @@
 			1,
 			0
 		],
-		"useThemeColor": false,
+		"useThemeColor": true,
 		"themeColor": [
 			1,
 			1,
@@ -194,5 +347,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "EscenaSandro1"
 }

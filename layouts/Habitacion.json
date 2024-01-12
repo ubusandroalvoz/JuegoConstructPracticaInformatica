@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 49,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -44,7 +44,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 11,
+					"uid": 50,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -73,7 +73,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 51,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -106,7 +106,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 16,
+					"uid": 52,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -137,7 +137,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 17,
+					"uid": 53,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -168,7 +168,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 6,
+					"uid": 54,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -185,9 +185,40 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "BotonLibro3",
+					"properties": {
+						"type": "button",
+						"text": "Comenzar juego",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 72,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 447,
+						"y": 631,
+						"width": 80,
+						"height": 59,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
-			"sid": 165988111585688,
+			"sid": 216557500074040,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -216,7 +247,7 @@
 			"global": false
 		}
 	],
-	"sid": 898835683435073,
+	"sid": 490191758127819,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -225,5 +256,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "HojaEventosAngel2"
 }

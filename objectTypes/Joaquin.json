@@ -4,7 +4,18 @@
 	"sid": 896051957353308,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direcciones",
+			"sid": 630731396856415
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "DesplazarHasta",
+			"sid": 611913310281980
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -13,12 +24,12 @@
 					{
 						"width": 250,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.212,
+						"originY": 0.332,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7737329,
+						"imageSpriteId": 7329909,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""

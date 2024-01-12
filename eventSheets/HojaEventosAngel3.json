@@ -1,0 +1,27 @@
+{
+	"name": "HojaEventosAngel3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 326550911714984
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 273816746271179,
+					"parameters": {
+						"layout": "Habitacion"
+					}
+				}
+			],
+			"sid": 255580438552479
+		}
+	],
+	"sid": 773649386077193
+}

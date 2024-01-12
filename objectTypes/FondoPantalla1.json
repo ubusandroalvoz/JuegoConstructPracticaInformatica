@@ -1,7 +1,7 @@
 {
 	"name": "FondoPantalla1",
 	"plugin-id": "Sprite",
-	"sid": 210667012171214,
+	"sid": 685655583963454,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,13 +18,13 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5839387,
+						"imageSpriteId": 9860685,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 381588003552212,
+				"sid": 318283643001854,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

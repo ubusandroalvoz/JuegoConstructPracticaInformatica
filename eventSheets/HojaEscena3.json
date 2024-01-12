@@ -1,0 +1,250 @@
+{
+	"name": "HojaEscena3",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Info1",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 611585147758975
+		},
+		{
+			"eventType": "variable",
+			"name": "Info2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 411602955180398
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Joaquin",
+					"sid": 159687257712363,
+					"behaviorType": "8Direcciones"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "Servidor",
+					"sid": 862218903496938,
+					"parameters": {
+						"x": "1920-Joaquin.X"
+					}
+				},
+				{
+					"id": "set-y",
+					"objectClass": "Servidor",
+					"sid": 827966195110960,
+					"parameters": {
+						"y": "1080-Joaquin.Y"
+					}
+				}
+			],
+			"sid": 733980056890228
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 971466852039584
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 147297579535189,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Texto3",
+					"sid": 825405699691947,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 202459017548183
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 760171279952120,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Servidor",
+					"sid": 364339048466323,
+					"parameters": {
+						"object": "HojadeInformacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto2",
+					"sid": 370050507260212,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion",
+					"sid": 530378723708369,
+					"parameters": {
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 726338412713883,
+					"parameters": {
+						"variable": "Info1",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 172739964460466,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Servidor",
+					"sid": 314069262050696,
+					"parameters": {
+						"object": "HojadeInformacion2"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Joaquin",
+					"sid": 150207662656954,
+					"parameters": {
+						"object": "HojadeInformacion2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Texto3",
+					"sid": 452074371082192,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "HojadeInformacion2",
+					"sid": 179655371906138,
+					"parameters": {
+						"animation": "\"Animación 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 836320938527711,
+					"parameters": {
+						"variable": "Info2",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 118724983578537,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 591442925794059,
+					"parameters": {
+						"variable": "Info1"
+					}
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 407417093851832,
+					"parameters": {
+						"variable": "Info2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Continuar",
+					"sid": 843095760878039,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 758757497412948
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 605468772226589,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Continuar"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "Continuar",
+					"sid": 218421581487973
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 745767295564887,
+					"parameters": {
+						"layout": "EscenaSandro4"
+					}
+				}
+			],
+			"sid": 475350035289639
+		}
+	],
+	"sid": 522301400404047
+}

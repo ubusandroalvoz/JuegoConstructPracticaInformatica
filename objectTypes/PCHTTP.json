@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "PCHTTP",
 	"plugin-id": "Sprite",
-	"sid": 985680537611436,
+	"sid": 644138582978540,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,20 +11,20 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 259,
+						"height": 194,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3942976,
+						"imageSpriteId": 8002393,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 720356877375506,
+				"sid": 356164228842335,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

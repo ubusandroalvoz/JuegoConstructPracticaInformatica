@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 25,
+					"uid": 69,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -59,7 +59,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 26,
+					"uid": 70,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -80,7 +80,7 @@
 					}
 				},
 				{
-					"type": "ExplicacionHTTP2",
+					"type": "Sprite2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -88,7 +88,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 27,
+					"uid": 71,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -96,35 +96,6 @@
 						"y": 168,
 						"width": 1019,
 						"height": 247,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "ExplicacionHTTP3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 28,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1397.5,
-						"y": 564,
-						"width": 983,
-						"height": 416,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -150,7 +121,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 29,
+					"uid": 73,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -169,7 +140,7 @@
 					}
 				}
 			],
-			"sid": 896742472474820,
+			"sid": 861955615734734,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -198,7 +169,7 @@
 			"global": false
 		}
 	],
-	"sid": 648383050204535,
+	"sid": 565424839406860,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -207,5 +178,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 5"
+	"eventSheet": "HojaEventosAngel5"
 }

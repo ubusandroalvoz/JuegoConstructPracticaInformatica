@@ -1,0 +1,27 @@
+{
+	"name": "HojaEventosAngel5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BotonVueltaHabitacionPortatil2",
+					"sid": 782068809698414
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 539963284305505,
+					"parameters": {
+						"layout": "Habitacion"
+					}
+				}
+			],
+			"sid": 243265283299642
+		}
+	],
+	"sid": 411482265482699
+}
