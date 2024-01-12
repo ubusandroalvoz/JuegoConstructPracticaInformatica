@@ -8,8 +8,22 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -17,8 +31,33 @@
 	"uniqueId": "5jw603iv87u",
 	"objectTypes": {
 		"items": [
-			"Sprite",
-			"Sprite2"
+			"TextoparaInicio",
+			"BotónInicioJuego",
+			"FondoPantalla1",
+			"FondoPantalla2",
+			"TextoCreadores",
+			"TextoHTTPLibro",
+			"TextoHTTPLibro2",
+			"FondoPantalla3",
+			"FondoPantalla4",
+			"FondoBlanco",
+			"BotonPortatil",
+			"BotonLibro",
+			"BotonVolver1",
+			"TextoHTTPLibro3",
+			"TextoHTTPLibro5",
+			"TextoHTTPLibro4",
+			"PCHTTP",
+			"Botón",
+			"TextoPortatil",
+			"TextoPortatil2",
+			"ExplicacionHTTP1",
+			"BotonVolverHabitacionPortatil",
+			"TextoFuncionamientoPortatil",
+			"ExplicacionHTTP2",
+			"ExplicacionHTTP3",
+			"BotonVueltaHabitacionPortatil2",
+			"BotonPasarEscena"
 		],
 		"subfolders": []
 	},
@@ -30,13 +69,21 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Inicio",
+			"Habitacion",
+			"TextoIntroduccionHTTP",
+			"TextoPortatilHTTP",
+			"TexroPortatilHTTP2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},
