@@ -124,7 +124,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "ExplicacionHTTP1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animación 1",
