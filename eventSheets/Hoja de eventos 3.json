@@ -235,11 +235,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "Joaquin",
-					"sid": 334542551833443,
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 745767295564887,
 					"parameters": {
-						"visibility": "invisible"
+						"layout": "Escena 4"
 					}
 				}
 			],
