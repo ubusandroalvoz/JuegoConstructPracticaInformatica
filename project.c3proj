@@ -104,10 +104,10 @@
 	},
 	"layouts": {
 		"items": [
-			"EscenaSandro1",
-			"EscenaSandro2",
-			"EscenaSandro3",
-			"EscenaSandro4"
+			"Escena 1",
+			"Escena 2",
+			"Escena 3",
+			"Escena 4"
 		],
 		"subfolders": []
 	},
@@ -274,5 +274,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": "EscenaSandro1"
+	"firstLayout": "Escena 1"
 }
